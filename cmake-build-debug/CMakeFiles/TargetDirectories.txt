@@ -1,0 +1,3 @@
+/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles/PaC___Man.dir
