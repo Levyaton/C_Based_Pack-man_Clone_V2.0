@@ -9,6 +9,7 @@
 
 AggressiveEnemy::AggressiveEnemy(Coordinates coords, Player *player) : Enemy(coords, player) {
     this->colorCode = 31;
+    this->type = AGRESSIVEENEMY;
 }
 
 
@@ -40,7 +41,7 @@ Coordinates AggressiveEnemy::move(Player player, Map map) {
 
 bool AggressiveEnemy::pipeValidityAndIsPlayerCheck(Tile *current, AggressiveEnemy::Pipe *prev, AggressiveEnemy::Channel *sewage,
                                                    AggressiveEnemy::Channel *newPipes) {
-    if(current->getType() == EMPTY){
+    if(current->getType() == EMPTY || current->getType() == POINT){
         Pipe newPipe = Pipe(prev, current);
         if(!sewage->contains(newPipe)){
             newPipes->add(newPipe);

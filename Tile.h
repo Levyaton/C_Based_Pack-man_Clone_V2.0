@@ -5,6 +5,8 @@
 #include <string>
 #include "algorithm"
 #include <string>
+#include <curses.h>
+
 #ifndef PAC_MAN_TILE_H
 #define PAC_MAN_TILE_H
 
@@ -26,16 +28,19 @@ public:
 };
 
 enum TileType{
-    EMPTY,
-    ENEMY,
-    PLAYER,
-    WALL
+    EMPTY = ' ',
+    POINT = 'P',
+    AGRESSIVEENEMY = 'A',
+    SCAREDENEMY = 'S',
+    RANDOMENEMY = 'R',
+    PLAYER = 'E',
+    WALL = 'X'
 };
 class Tile {
 
 protected:
     TileType type;
-    char mapChar;
+
     std::string displayChars;
     Coordinates coords;
     bool containsPoint;
@@ -45,11 +50,13 @@ public:
     Tile(const Coordinates &coords);
 
     virtual void onUpdate();
-    virtual void print();
+    virtual int print(int x, int y);
 
-    char getMapChar() const;
 
-    const std::string &getDisplayChars() const;
+
+    static void setMapChar(char mapChar);
+
+    std::string &getDisplayChars();
 
     void setCoords(const Coordinates &coords);
 

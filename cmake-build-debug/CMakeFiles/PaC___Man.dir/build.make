@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/levymaty/Downloads/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/levymaty/Downloads/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/levymaty/CLionProjects/PaC++ Man"
+CMAKE_SOURCE_DIR = "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PaC___Man.dir/depend.make
@@ -79,68 +79,133 @@ include CMakeFiles/PaC___Man.dir/flags.make
 
 CMakeFiles/PaC___Man.dir/Enemy.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
 CMakeFiles/PaC___Man.dir/Enemy.cpp.o: ../Enemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PaC___Man.dir/Enemy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Enemy.cpp.o -c "/home/levymaty/CLionProjects/PaC++ Man/Enemy.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PaC___Man.dir/Enemy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Enemy.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemy.cpp"
 
 CMakeFiles/PaC___Man.dir/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Enemy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levymaty/CLionProjects/PaC++ Man/Enemy.cpp" > CMakeFiles/PaC___Man.dir/Enemy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemy.cpp" > CMakeFiles/PaC___Man.dir/Enemy.cpp.i
 
 CMakeFiles/PaC___Man.dir/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Enemy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levymaty/CLionProjects/PaC++ Man/Enemy.cpp" -o CMakeFiles/PaC___Man.dir/Enemy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemy.cpp" -o CMakeFiles/PaC___Man.dir/Enemy.cpp.s
 
 CMakeFiles/PaC___Man.dir/main.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
 CMakeFiles/PaC___Man.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PaC___Man.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/main.cpp.o -c "/home/levymaty/CLionProjects/PaC++ Man/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PaC___Man.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/main.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/main.cpp"
 
 CMakeFiles/PaC___Man.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levymaty/CLionProjects/PaC++ Man/main.cpp" > CMakeFiles/PaC___Man.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/main.cpp" > CMakeFiles/PaC___Man.dir/main.cpp.i
 
 CMakeFiles/PaC___Man.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levymaty/CLionProjects/PaC++ Man/main.cpp" -o CMakeFiles/PaC___Man.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/main.cpp" -o CMakeFiles/PaC___Man.dir/main.cpp.s
 
 CMakeFiles/PaC___Man.dir/Tile.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
 CMakeFiles/PaC___Man.dir/Tile.cpp.o: ../Tile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PaC___Man.dir/Tile.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Tile.cpp.o -c "/home/levymaty/CLionProjects/PaC++ Man/Tile.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PaC___Man.dir/Tile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Tile.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.cpp"
 
 CMakeFiles/PaC___Man.dir/Tile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Tile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levymaty/CLionProjects/PaC++ Man/Tile.cpp" > CMakeFiles/PaC___Man.dir/Tile.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.cpp" > CMakeFiles/PaC___Man.dir/Tile.cpp.i
 
 CMakeFiles/PaC___Man.dir/Tile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Tile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levymaty/CLionProjects/PaC++ Man/Tile.cpp" -o CMakeFiles/PaC___Man.dir/Tile.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.cpp" -o CMakeFiles/PaC___Man.dir/Tile.cpp.s
 
 CMakeFiles/PaC___Man.dir/Player.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
 CMakeFiles/PaC___Man.dir/Player.cpp.o: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PaC___Man.dir/Player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Player.cpp.o -c "/home/levymaty/CLionProjects/PaC++ Man/Player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PaC___Man.dir/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Player.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Player.cpp"
 
 CMakeFiles/PaC___Man.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levymaty/CLionProjects/PaC++ Man/Player.cpp" > CMakeFiles/PaC___Man.dir/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Player.cpp" > CMakeFiles/PaC___Man.dir/Player.cpp.i
 
 CMakeFiles/PaC___Man.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levymaty/CLionProjects/PaC++ Man/Player.cpp" -o CMakeFiles/PaC___Man.dir/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Player.cpp" -o CMakeFiles/PaC___Man.dir/Player.cpp.s
 
 CMakeFiles/PaC___Man.dir/Map.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
 CMakeFiles/PaC___Man.dir/Map.cpp.o: ../Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PaC___Man.dir/Map.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Map.cpp.o -c "/home/levymaty/CLionProjects/PaC++ Man/Map.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PaC___Man.dir/Map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Map.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Map.cpp"
 
 CMakeFiles/PaC___Man.dir/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Map.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levymaty/CLionProjects/PaC++ Man/Map.cpp" > CMakeFiles/PaC___Man.dir/Map.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Map.cpp" > CMakeFiles/PaC___Man.dir/Map.cpp.i
 
 CMakeFiles/PaC___Man.dir/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Map.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levymaty/CLionProjects/PaC++ Man/Map.cpp" -o CMakeFiles/PaC___Man.dir/Map.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Map.cpp" -o CMakeFiles/PaC___Man.dir/Map.cpp.s
+
+CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
+CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.o: ../Enemies/AggressiveEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/AggressiveEnemy.cpp"
+
+CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/AggressiveEnemy.cpp" > CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.i
+
+CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/AggressiveEnemy.cpp" -o CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.s
+
+CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
+CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.o: ../Enemies/ScaredEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/ScaredEnemy.cpp"
+
+CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/ScaredEnemy.cpp" > CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.i
+
+CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/ScaredEnemy.cpp" -o CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.s
+
+CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
+CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.o: ../Enemies/RandomEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/RandomEnemy.cpp"
+
+CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/RandomEnemy.cpp" > CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.i
+
+CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/RandomEnemy.cpp" -o CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.s
+
+CMakeFiles/PaC___Man.dir/Empty.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
+CMakeFiles/PaC___Man.dir/Empty.cpp.o: ../Empty.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PaC___Man.dir/Empty.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Empty.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Empty.cpp"
+
+CMakeFiles/PaC___Man.dir/Empty.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Empty.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Empty.cpp" > CMakeFiles/PaC___Man.dir/Empty.cpp.i
+
+CMakeFiles/PaC___Man.dir/Empty.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Empty.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Empty.cpp" -o CMakeFiles/PaC___Man.dir/Empty.cpp.s
+
+CMakeFiles/PaC___Man.dir/Wall.cpp.o: CMakeFiles/PaC___Man.dir/flags.make
+CMakeFiles/PaC___Man.dir/Wall.cpp.o: ../Wall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PaC___Man.dir/Wall.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PaC___Man.dir/Wall.cpp.o -c "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Wall.cpp"
+
+CMakeFiles/PaC___Man.dir/Wall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaC___Man.dir/Wall.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Wall.cpp" > CMakeFiles/PaC___Man.dir/Wall.cpp.i
+
+CMakeFiles/PaC___Man.dir/Wall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaC___Man.dir/Wall.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Wall.cpp" -o CMakeFiles/PaC___Man.dir/Wall.cpp.s
 
 # Object files for target PaC___Man
 PaC___Man_OBJECTS = \
@@ -148,7 +213,12 @@ PaC___Man_OBJECTS = \
 "CMakeFiles/PaC___Man.dir/main.cpp.o" \
 "CMakeFiles/PaC___Man.dir/Tile.cpp.o" \
 "CMakeFiles/PaC___Man.dir/Player.cpp.o" \
-"CMakeFiles/PaC___Man.dir/Map.cpp.o"
+"CMakeFiles/PaC___Man.dir/Map.cpp.o" \
+"CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.o" \
+"CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.o" \
+"CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.o" \
+"CMakeFiles/PaC___Man.dir/Empty.cpp.o" \
+"CMakeFiles/PaC___Man.dir/Wall.cpp.o"
 
 # External object files for target PaC___Man
 PaC___Man_EXTERNAL_OBJECTS =
@@ -158,9 +228,16 @@ PaC___Man: CMakeFiles/PaC___Man.dir/main.cpp.o
 PaC___Man: CMakeFiles/PaC___Man.dir/Tile.cpp.o
 PaC___Man: CMakeFiles/PaC___Man.dir/Player.cpp.o
 PaC___Man: CMakeFiles/PaC___Man.dir/Map.cpp.o
+PaC___Man: CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.o
+PaC___Man: CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.o
+PaC___Man: CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.o
+PaC___Man: CMakeFiles/PaC___Man.dir/Empty.cpp.o
+PaC___Man: CMakeFiles/PaC___Man.dir/Wall.cpp.o
 PaC___Man: CMakeFiles/PaC___Man.dir/build.make
+PaC___Man: /usr/lib/x86_64-linux-gnu/libcurses.so
+PaC___Man: /usr/lib/x86_64-linux-gnu/libform.so
 PaC___Man: CMakeFiles/PaC___Man.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PaC___Man"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable PaC___Man"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PaC___Man.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +250,6 @@ CMakeFiles/PaC___Man.dir/clean:
 .PHONY : CMakeFiles/PaC___Man.dir/clean
 
 CMakeFiles/PaC___Man.dir/depend:
-	cd "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/levymaty/CLionProjects/PaC++ Man" "/home/levymaty/CLionProjects/PaC++ Man" "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug" "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug" "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles/PaC___Man.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0" "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0" "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug" "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug" "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles/PaC___Man.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/PaC___Man.dir/depend
 

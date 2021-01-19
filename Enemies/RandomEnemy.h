@@ -8,9 +8,9 @@
 
 #include <Enemy.h>
 
-class RandomEnemy: Enemy {
+class RandomEnemy: public Enemy {
 public:
-    RandomEnemy(Coordinates coords, Player *player;
+    RandomEnemy(Coordinates coords);
 
 };
 

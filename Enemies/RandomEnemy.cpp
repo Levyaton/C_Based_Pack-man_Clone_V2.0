@@ -4,6 +4,7 @@
 
 #include "RandomEnemy.h"
 
-RandomEnemy::RandomEnemy(Coordinates coords, Player *player) : Enemy(coords, player) {
+RandomEnemy::RandomEnemy(Coordinates coords) : Enemy(coords, nullptr) {
     this->colorCode = 35;
+    this->type = RANDOMENEMY;
 }

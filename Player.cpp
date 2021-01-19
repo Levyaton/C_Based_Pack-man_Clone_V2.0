@@ -6,7 +6,6 @@
 
 Player::Player(Coordinates coords) : Tile(coords) {
     this->displayChars = "EE";
-    this->mapChar = 'E';
     this->type = PLAYER;
 }
 
@@ -16,15 +15,9 @@ void Player::onUpdate() {
     Tile::onUpdate();
 }
 
-void Player::print() {
-    Tile::print();
+int Player::print(int x, int y) {
+    return Tile::print(x, y);
 }
 
-void Player::move(char movementInput) {
-    switch (movementInput)
-    {
-
-    }
-}
 
 

@@ -8,7 +8,7 @@
 
 #include <Enemy.h>
 
-class ScaredEnemy: Enemy {
+class ScaredEnemy: public Enemy {
 public:
     ScaredEnemy(Coordinates coords, Player *player);
 

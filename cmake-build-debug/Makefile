@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/levymaty/Downloads/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/levymaty/Downloads/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/levymaty/CLionProjects/PaC++ Man"
+CMAKE_SOURCE_DIR = "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/levymaty/Downloads/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/levymaty/Downloads/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/138/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles" "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/levymaty/CLionProjects/PaC++ Man/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,114 @@ PaC___Man: cmake_check_build_system
 PaC___Man/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/build
 .PHONY : PaC___Man/fast
+
+Empty.o: Empty.cpp.o
+
+.PHONY : Empty.o
+
+# target to build an object file
+Empty.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Empty.cpp.o
+.PHONY : Empty.cpp.o
+
+Empty.i: Empty.cpp.i
+
+.PHONY : Empty.i
+
+# target to preprocess a source file
+Empty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Empty.cpp.i
+.PHONY : Empty.cpp.i
+
+Empty.s: Empty.cpp.s
+
+.PHONY : Empty.s
+
+# target to generate assembly for a file
+Empty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Empty.cpp.s
+.PHONY : Empty.cpp.s
+
+Enemies/AggressiveEnemy.o: Enemies/AggressiveEnemy.cpp.o
+
+.PHONY : Enemies/AggressiveEnemy.o
+
+# target to build an object file
+Enemies/AggressiveEnemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.o
+.PHONY : Enemies/AggressiveEnemy.cpp.o
+
+Enemies/AggressiveEnemy.i: Enemies/AggressiveEnemy.cpp.i
+
+.PHONY : Enemies/AggressiveEnemy.i
+
+# target to preprocess a source file
+Enemies/AggressiveEnemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.i
+.PHONY : Enemies/AggressiveEnemy.cpp.i
+
+Enemies/AggressiveEnemy.s: Enemies/AggressiveEnemy.cpp.s
+
+.PHONY : Enemies/AggressiveEnemy.s
+
+# target to generate assembly for a file
+Enemies/AggressiveEnemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/AggressiveEnemy.cpp.s
+.PHONY : Enemies/AggressiveEnemy.cpp.s
+
+Enemies/RandomEnemy.o: Enemies/RandomEnemy.cpp.o
+
+.PHONY : Enemies/RandomEnemy.o
+
+# target to build an object file
+Enemies/RandomEnemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.o
+.PHONY : Enemies/RandomEnemy.cpp.o
+
+Enemies/RandomEnemy.i: Enemies/RandomEnemy.cpp.i
+
+.PHONY : Enemies/RandomEnemy.i
+
+# target to preprocess a source file
+Enemies/RandomEnemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.i
+.PHONY : Enemies/RandomEnemy.cpp.i
+
+Enemies/RandomEnemy.s: Enemies/RandomEnemy.cpp.s
+
+.PHONY : Enemies/RandomEnemy.s
+
+# target to generate assembly for a file
+Enemies/RandomEnemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/RandomEnemy.cpp.s
+.PHONY : Enemies/RandomEnemy.cpp.s
+
+Enemies/ScaredEnemy.o: Enemies/ScaredEnemy.cpp.o
+
+.PHONY : Enemies/ScaredEnemy.o
+
+# target to build an object file
+Enemies/ScaredEnemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.o
+.PHONY : Enemies/ScaredEnemy.cpp.o
+
+Enemies/ScaredEnemy.i: Enemies/ScaredEnemy.cpp.i
+
+.PHONY : Enemies/ScaredEnemy.i
+
+# target to preprocess a source file
+Enemies/ScaredEnemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.i
+.PHONY : Enemies/ScaredEnemy.cpp.i
+
+Enemies/ScaredEnemy.s: Enemies/ScaredEnemy.cpp.s
+
+.PHONY : Enemies/ScaredEnemy.s
+
+# target to generate assembly for a file
+Enemies/ScaredEnemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Enemies/ScaredEnemy.cpp.s
+.PHONY : Enemies/ScaredEnemy.cpp.s
 
 Enemy.o: Enemy.cpp.o
 
@@ -251,6 +359,33 @@ Tile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Tile.cpp.s
 .PHONY : Tile.cpp.s
 
+Wall.o: Wall.cpp.o
+
+.PHONY : Wall.o
+
+# target to build an object file
+Wall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Wall.cpp.o
+.PHONY : Wall.cpp.o
+
+Wall.i: Wall.cpp.i
+
+.PHONY : Wall.i
+
+# target to preprocess a source file
+Wall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Wall.cpp.i
+.PHONY : Wall.cpp.i
+
+Wall.s: Wall.cpp.s
+
+.PHONY : Wall.s
+
+# target to generate assembly for a file
+Wall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PaC___Man.dir/build.make CMakeFiles/PaC___Man.dir/Wall.cpp.s
+.PHONY : Wall.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -287,6 +422,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PaC___Man"
+	@echo "... Empty.o"
+	@echo "... Empty.i"
+	@echo "... Empty.s"
+	@echo "... Enemies/AggressiveEnemy.o"
+	@echo "... Enemies/AggressiveEnemy.i"
+	@echo "... Enemies/AggressiveEnemy.s"
+	@echo "... Enemies/RandomEnemy.o"
+	@echo "... Enemies/RandomEnemy.i"
+	@echo "... Enemies/RandomEnemy.s"
+	@echo "... Enemies/ScaredEnemy.o"
+	@echo "... Enemies/ScaredEnemy.i"
+	@echo "... Enemies/ScaredEnemy.s"
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"
@@ -299,6 +446,9 @@ help:
 	@echo "... Tile.o"
 	@echo "... Tile.i"
 	@echo "... Tile.s"
+	@echo "... Wall.o"
+	@echo "... Wall.i"
+	@echo "... Wall.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

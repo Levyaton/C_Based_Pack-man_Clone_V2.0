@@ -3,13 +3,12 @@
 //
 
 
+#include <iostream>
 #include "Tile.h"
 
-char Tile::getMapChar() const {
-    return mapChar;
-}
 
-const std::string &Tile::getDisplayChars() const {
+
+ std::string &Tile::getDisplayChars()  {
     return displayChars;
 }
 
@@ -20,9 +19,7 @@ void Tile::onUpdate() {
 
 }
 
-void Tile::print() {
 
-}
 
 bool Tile::hasPoint() const{
     return this->containsPoint;
@@ -63,6 +60,24 @@ void Coordinates::setY(int y) {
     Coordinates::y = y;
 }
 
+Coordinates::Coordinates(int x, int y) {
+    this->x = x;
+    this->y = y;
+}
+
 TileType Tile::getType() const {
     return type;
 }
+
+int Tile::print(int x, int y) {
+
+    for(int i = 0; i < displayChars.length(); i++){
+        mvaddch(y*0.5, x*2+ i, displayChars[i]);
+    }
+    for(unsigned char c : displayChars){
+
+    }
+    return displayChars.length();
+
+}
+

@@ -19,7 +19,7 @@ void Map::swapTile(Coordinates dest, const Tile& sourceTile) {
     bool chosenHasPoint = chosen.hasPoint();
     bool sourceHasPoint = sourceTile.hasPoint();
 
-    tiles[sourceTile.getY()][sourceTile.getX()] = chosen;
+    tiles[sourceTile.getCoords().y][sourceTile.getCoords().x] = chosen;
 
 
     tiles[dest.y][dest.x] = sourceTile;

@@ -9,7 +9,7 @@
 #include <Enemy.h>
 #include <vector>
 
-class AggressiveEnemy: Enemy {
+class AggressiveEnemy: public Enemy {
 public:
 
     struct Pipe{
