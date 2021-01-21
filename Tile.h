@@ -50,7 +50,7 @@ public:
     Tile(const Coordinates &coords);
 
     virtual void onUpdate();
-    virtual int print(int x, int y);
+    virtual void print();
 
 
 

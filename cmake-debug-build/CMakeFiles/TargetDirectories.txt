@@ -1,0 +1,3 @@
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-debug-build/CMakeFiles/rebuild_cache.dir
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-debug-build/CMakeFiles/PaC___Man.dir
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/cmake-debug-build/CMakeFiles/edit_cache.dir

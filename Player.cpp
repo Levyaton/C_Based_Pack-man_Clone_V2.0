@@ -15,8 +15,8 @@ void Player::onUpdate() {
     Tile::onUpdate();
 }
 
-int Player::print(int x, int y) {
-    return Tile::print(x, y);
+void Player::print() {
+    return Tile::print();
 }
 
 

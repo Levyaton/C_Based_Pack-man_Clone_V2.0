@@ -17,7 +17,6 @@ using namespace std;
 #include <csignal>
 #include <vector>
 #include <fstream>
-#include <iostream>
 #include <chrono>
 #include "Tile.h"
 #include "Player.h"
@@ -90,7 +89,7 @@ void parseMapFile(const string& path,int &height, int &width, Player player,  ve
    //     cout<<"Map parsing successful!";
     }
     else{
-        cout<<line<<endl;
+        addstr(line.c_str() + '\n');
         throw runtime_error("Empty Map!");
     }
 
@@ -103,6 +102,8 @@ int main(){
     int height;
     int width;
     initscr();
+    noecho();
+    cbreak();
     auto* player = new Player({-666,-666});
     vector<Enemy*> enemies;
     int score = 0;
@@ -110,23 +111,39 @@ int main(){
     vector<Tile*> protoTiles;
     parseMapFile(path,height,width, *player, enemies, protoTiles);
     Tile** tiles = &protoTiles[0];
+    resize_term(height,width*2);
     clear();
     refresh();
 
     curs_set(0);
-    while (true){
-        int counter;
-        for(int y = 0;y < width; y++){
-            counter = 0;
-            for(int x = 0; x < height; x++){
-                counter += tiles[width * x + y]->print(y,x+counter);
-            }
+    try{
+         while (true){
+             erase();
+             curs_set(0);
+             for(int y = 0;y < height; y++){
+
+                for(int x = 0; x < width; x++){
+                    //cout<< tiles[width * x + y]->getDisplayChars();
+                   tiles[width * x + y]->print();
+                }
+               // addch('\n');
+             }
+             //std::this_thread::sleep_for(std::chrono::milliseconds(60));
+             //addch('\n');
+             //addstr("Line count should be " + height);
+             refresh();
+
+
         }
-        refresh();
-
-
-     //   std::this_thread::sleep_for(std::chrono::milliseconds(20));
+    }catch(int e){
+        string filePath = "log.txt";
+        ofstream ofs(filePath.c_str(), std::ios_base::out | std::ios_base::app );
+        ofs << e << '\n';
+        ofs.close();
     }
+    endwin();
+
+
     
 
 

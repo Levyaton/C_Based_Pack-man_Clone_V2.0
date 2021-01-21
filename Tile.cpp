@@ -69,15 +69,11 @@ TileType Tile::getType() const {
     return type;
 }
 
-int Tile::print(int x, int y) {
+void Tile::print() {
 
-    for(int i = 0; i < displayChars.length(); i++){
-        mvaddch(y*0.5, x*2+ i, displayChars[i]);
+    for(int x = 0; x < displayChars.length();x++){
+        mvaddstr(this->coords.y, this->coords.x*displayChars.length(), displayChars.c_str());
     }
-    for(unsigned char c : displayChars){
-
-    }
-    return displayChars.length();
 
 }
 

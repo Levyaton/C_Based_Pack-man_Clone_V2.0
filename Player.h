@@ -15,7 +15,7 @@ public:
 private:
     void onUpdate() override;
 
-    int print(int x, int y) override;
+    void print() override;
 
 };
 

@@ -1,0 +1,104 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Empty.h
+Tile.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.h
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/AggressiveEnemy.h
+Enemy.h
+-
+vector
+-
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/RandomEnemy.h
+Enemy.h
+-
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/ScaredEnemy.h
+Enemy.h
+-
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemy.h
+Tile.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.h
+Player.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Player.h
+Map.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Map.h
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Map.h
+Tile.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.h
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Player.h
+Tile.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.h
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.h
+cstdint
+-
+string
+-
+algorithm
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/algorithm
+string
+-
+curses.h
+-
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Wall.h
+Tile.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.h
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/main.cpp
+main.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/main.h
+
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/main.h
+chrono
+-
+ncurses.h
+-
+curses.h
+-
+thread
+-
+unistd.h
+-
+stdio.h
+-
+string.h
+-
+cstdio
+-
+csignal
+-
+vector
+-
+fstream
+-
+chrono
+-
+Tile.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Tile.h
+Player.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Player.h
+Enemy.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemy.h
+Enemies/AggressiveEnemy.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/AggressiveEnemy.h
+Enemies/RandomEnemy.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/RandomEnemy.h
+Enemies/ScaredEnemy.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Enemies/ScaredEnemy.h
+Wall.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Wall.h
+Empty.h
+/home/levyaton/CLionProjects/Newer C_Based_Pack-man_Clone_V2.0/Empty.h
+
