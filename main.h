@@ -111,7 +111,7 @@ int main(){
     vector<Tile*> protoTiles;
     parseMapFile(path,height,width, *player, enemies, protoTiles);
     Tile** tiles = &protoTiles[0];
-    resize_term(height,width*2);
+    resize_term(height*2,width*2);
     clear();
     refresh();
 

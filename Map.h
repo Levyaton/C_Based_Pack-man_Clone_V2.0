@@ -7,13 +7,20 @@
 
 
 #include "Tile.h"
+#include "Player.h"
+#include "Enemy.h"
 
 class Map {
     Tile** tiles;
     int width;
     int height;
+    Player* player;
+    std::vector<Enemy*> enemies;
 
+
+private:
 public:
+    Map(std::string path);
     Map(Tile **tiles, int width, int height);
     Tile getTile(Coordinates coords);
 
